@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD9D47D22AB751E0041F2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D47C22AB751E0041F2FC /* AppDelegate.swift */; };
+		FAD9D47F22AB751E0041F2FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D47E22AB751E0041F2FC /* ViewController.swift */; };
+		FAD9D48222AB751E0041F2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D48022AB751E0041F2FC /* Main.storyboard */; };
+		FAD9D48522AB751E0041F2FC /* NorBliss.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D48322AB751E0041F2FC /* NorBliss.xcdatamodeld */; };
+		FAD9D48722AB751F0041F2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D48622AB751F0041F2FC /* Assets.xcassets */; };
+		FAD9D48A22AB751F0041F2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D48822AB751F0041F2FC /* LaunchScreen.storyboard */; };
+		FAD9D49522AB751F0041F2FC /* NorBlissTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D49422AB751F0041F2FC /* NorBlissTests.swift */; };
+		FAD9D4A022AB751F0041F2FC /* NorBlissUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D49F22AB751F0041F2FC /* NorBlissUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD9D49122AB751F0041F2FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD9D47122AB751E0041F2FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD9D47822AB751E0041F2FC;
+			remoteInfo = NorBliss;
+		};
+		FAD9D49C22AB751F0041F2FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD9D47122AB751E0041F2FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD9D47822AB751E0041F2FC;
+			remoteInfo = NorBliss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD9D47922AB751E0041F2FC /* NorBliss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorBliss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD9D47C22AB751E0041F2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD9D47E22AB751E0041F2FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD9D48122AB751E0041F2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD9D48422AB751E0041F2FC /* NorBliss.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NorBliss.xcdatamodel; sourceTree = "<group>"; };
+		FAD9D48622AB751F0041F2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD9D48922AB751F0041F2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD9D48B22AB751F0041F2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD9D49022AB751F0041F2FC /* NorBlissTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorBlissTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD9D49422AB751F0041F2FC /* NorBlissTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorBlissTests.swift; sourceTree = "<group>"; };
+		FAD9D49622AB751F0041F2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD9D49B22AB751F0041F2FC /* NorBlissUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorBlissUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD9D49F22AB751F0041F2FC /* NorBlissUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorBlissUITests.swift; sourceTree = "<group>"; };
+		FAD9D4A122AB751F0041F2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD9D47622AB751E0041F2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD9D48D22AB751F0041F2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD9D49822AB751F0041F2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD9D47022AB751E0041F2FC = {
+			isa = PBXGroup;
+			children = (
+				FAD9D47B22AB751E0041F2FC /* NorBliss */,
+				FAD9D49322AB751F0041F2FC /* NorBlissTests */,
+				FAD9D49E22AB751F0041F2FC /* NorBlissUITests */,
+				FAD9D47A22AB751E0041F2FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD9D47A22AB751E0041F2FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D47922AB751E0041F2FC /* NorBliss.app */,
+				FAD9D49022AB751F0041F2FC /* NorBlissTests.xctest */,
+				FAD9D49B22AB751F0041F2FC /* NorBlissUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD9D47B22AB751E0041F2FC /* NorBliss */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D47C22AB751E0041F2FC /* AppDelegate.swift */,
+				FAD9D47E22AB751E0041F2FC /* ViewController.swift */,
+				FAD9D48022AB751E0041F2FC /* Main.storyboard */,
+				FAD9D48622AB751F0041F2FC /* Assets.xcassets */,
+				FAD9D48822AB751F0041F2FC /* LaunchScreen.storyboard */,
+				FAD9D48B22AB751F0041F2FC /* Info.plist */,
+				FAD9D48322AB751E0041F2FC /* NorBliss.xcdatamodeld */,
+			);
+			path = NorBliss;
+			sourceTree = "<group>";
+		};
+		FAD9D49322AB751F0041F2FC /* NorBlissTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D49422AB751F0041F2FC /* NorBlissTests.swift */,
+				FAD9D49622AB751F0041F2FC /* Info.plist */,
+			);
+			path = NorBlissTests;
+			sourceTree = "<group>";
+		};
+		FAD9D49E22AB751F0041F2FC /* NorBlissUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D49F22AB751F0041F2FC /* NorBlissUITests.swift */,
+				FAD9D4A122AB751F0041F2FC /* Info.plist */,
+			);
+			path = NorBlissUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD9D47822AB751E0041F2FC /* NorBliss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD9D4A422AB751F0041F2FC /* Build configuration list for PBXNativeTarget "NorBliss" */;
+			buildPhases = (
+				FAD9D47522AB751E0041F2FC /* Sources */,
+				FAD9D47622AB751E0041F2FC /* Frameworks */,
+				FAD9D47722AB751E0041F2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NorBliss;
+			productName = NorBliss;
+			productReference = FAD9D47922AB751E0041F2FC /* NorBliss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD9D48F22AB751F0041F2FC /* NorBlissTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD9D4A722AB751F0041F2FC /* Build configuration list for PBXNativeTarget "NorBlissTests" */;
+			buildPhases = (
+				FAD9D48C22AB751F0041F2FC /* Sources */,
+				FAD9D48D22AB751F0041F2FC /* Frameworks */,
+				FAD9D48E22AB751F0041F2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD9D49222AB751F0041F2FC /* PBXTargetDependency */,
+			);
+			name = NorBlissTests;
+			productName = NorBlissTests;
+			productReference = FAD9D49022AB751F0041F2FC /* NorBlissTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD9D49A22AB751F0041F2FC /* NorBlissUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD9D4AA22AB751F0041F2FC /* Build configuration list for PBXNativeTarget "NorBlissUITests" */;
+			buildPhases = (
+				FAD9D49722AB751F0041F2FC /* Sources */,
+				FAD9D49822AB751F0041F2FC /* Frameworks */,
+				FAD9D49922AB751F0041F2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD9D49D22AB751F0041F2FC /* PBXTargetDependency */,
+			);
+			name = NorBlissUITests;
+			productName = NorBlissUITests;
+			productReference = FAD9D49B22AB751F0041F2FC /* NorBlissUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD9D47122AB751E0041F2FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = DOT;
+				TargetAttributes = {
+					FAD9D47822AB751E0041F2FC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FAD9D48F22AB751F0041F2FC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAD9D47822AB751E0041F2FC;
+					};
+					FAD9D49A22AB751F0041F2FC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAD9D47822AB751E0041F2FC;
+					};
+				};
+			};
+			buildConfigurationList = FAD9D47422AB751E0041F2FC /* Build configuration list for PBXProject "NorBliss" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD9D47022AB751E0041F2FC;
+			productRefGroup = FAD9D47A22AB751E0041F2FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD9D47822AB751E0041F2FC /* NorBliss */,
+				FAD9D48F22AB751F0041F2FC /* NorBlissTests */,
+				FAD9D49A22AB751F0041F2FC /* NorBlissUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD9D47722AB751E0041F2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD9D48A22AB751F0041F2FC /* LaunchScreen.storyboard in Resources */,
+				FAD9D48722AB751F0041F2FC /* Assets.xcassets in Resources */,
+				FAD9D48222AB751E0041F2FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD9D48E22AB751F0041F2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD9D49922AB751F0041F2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD9D47522AB751E0041F2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD9D47F22AB751E0041F2FC /* ViewController.swift in Sources */,
+				FAD9D47D22AB751E0041F2FC /* AppDelegate.swift in Sources */,
+				FAD9D48522AB751E0041F2FC /* NorBliss.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD9D48C22AB751F0041F2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD9D49522AB751F0041F2FC /* NorBlissTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD9D49722AB751F0041F2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD9D4A022AB751F0041F2FC /* NorBlissUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD9D49222AB751F0041F2FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD9D47822AB751E0041F2FC /* NorBliss */;
+			targetProxy = FAD9D49122AB751F0041F2FC /* PBXContainerItemProxy */;
+		};
+		FAD9D49D22AB751F0041F2FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD9D47822AB751E0041F2FC /* NorBliss */;
+			targetProxy = FAD9D49C22AB751F0041F2FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD9D48022AB751E0041F2FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD9D48122AB751E0041F2FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD9D48822AB751F0041F2FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD9D48922AB751F0041F2FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD9D4A222AB751F0041F2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD9D4A322AB751F0041F2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD9D4A522AB751F0041F2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6DH7VUMR4;
+				INFOPLIST_FILE = NorBliss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Norman.NorBliss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD9D4A622AB751F0041F2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6DH7VUMR4;
+				INFOPLIST_FILE = NorBliss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Norman.NorBliss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAD9D4A822AB751F0041F2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6DH7VUMR4;
+				INFOPLIST_FILE = NorBlissTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Norman.NorBlissTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NorBliss.app/NorBliss";
+			};
+			name = Debug;
+		};
+		FAD9D4A922AB751F0041F2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6DH7VUMR4;
+				INFOPLIST_FILE = NorBlissTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Norman.NorBlissTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NorBliss.app/NorBliss";
+			};
+			name = Release;
+		};
+		FAD9D4AB22AB751F0041F2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6DH7VUMR4;
+				INFOPLIST_FILE = NorBlissUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Norman.NorBlissUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NorBliss;
+			};
+			name = Debug;
+		};
+		FAD9D4AC22AB751F0041F2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6DH7VUMR4;
+				INFOPLIST_FILE = NorBlissUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Norman.NorBlissUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NorBliss;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD9D47422AB751E0041F2FC /* Build configuration list for PBXProject "NorBliss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD9D4A222AB751F0041F2FC /* Debug */,
+				FAD9D4A322AB751F0041F2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD9D4A422AB751F0041F2FC /* Build configuration list for PBXNativeTarget "NorBliss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD9D4A522AB751F0041F2FC /* Debug */,
+				FAD9D4A622AB751F0041F2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD9D4A722AB751F0041F2FC /* Build configuration list for PBXNativeTarget "NorBlissTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD9D4A822AB751F0041F2FC /* Debug */,
+				FAD9D4A922AB751F0041F2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD9D4AA22AB751F0041F2FC /* Build configuration list for PBXNativeTarget "NorBlissUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD9D4AB22AB751F0041F2FC /* Debug */,
+				FAD9D4AC22AB751F0041F2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAD9D48322AB751E0041F2FC /* NorBliss.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAD9D48422AB751E0041F2FC /* NorBliss.xcdatamodel */,
+			);
+			currentVersion = FAD9D48422AB751E0041F2FC /* NorBliss.xcdatamodel */;
+			path = NorBliss.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAD9D47122AB751E0041F2FC /* Project object */;
+}
