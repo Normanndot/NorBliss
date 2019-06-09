@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A4E6CD0CBB288F87A965336 /* Pods_NorBliss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67B43F942E0C9EF021C67C1 /* Pods_NorBliss.framework */; };
+		82C543A203F41590A5453F6D /* Pods_NorBlissUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773BF66AB4298EF512DEB5C9 /* Pods_NorBlissUITests.framework */; };
+		9FF9F02EC143613FE2F07FC0 /* Pods_NorBlissTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FC299E5B363A8D9D538943 /* Pods_NorBlissTests.framework */; };
+		FA70AD1722AB7D1800A8817C /* LazyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70AD1622AB7D1800A8817C /* LazyLoader.swift */; };
+		FA70AD5B22AB8D9600A8817C /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70AD5A22AB8D9600A8817C /* MovieTableViewCell.swift */; };
+		FA70AD5D22AB8DCB00A8817C /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA70AD5C22AB8DCB00A8817C /* MovieTableViewCell.xib */; };
+		FA70AD6222AB93A500A8817C /* interview.json in Resources */ = {isa = PBXBuildFile; fileRef = FA70AD6122AB93A500A8817C /* interview.json */; };
+		FA70AD6422AB9B1000A8817C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70AD6322AB9B1000A8817C /* File.swift */; };
+		FA70AD6622ABB1E600A8817C /* AMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70AD6522ABB1E600A8817C /* AMovieViewModel.swift */; };
+		FA70AD6822ABB5DE00A8817C /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70AD6722ABB5DE00A8817C /* ViewModelTests.swift */; };
+		FA70AD6A22ABC08B00A8817C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70AD6922ABC08B00A8817C /* DetailViewController.swift */; };
+		FA70AD7622ABC75800A8817C /* ContentServiceProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70AD7522ABC75800A8817C /* ContentServiceProviderTests.swift */; };
 		FAD9D47D22AB751E0041F2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D47C22AB751E0041F2FC /* AppDelegate.swift */; };
 		FAD9D47F22AB751E0041F2FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D47E22AB751E0041F2FC /* ViewController.swift */; };
 		FAD9D48222AB751E0041F2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D48022AB751E0041F2FC /* Main.storyboard */; };
@@ -15,6 +27,16 @@
 		FAD9D48A22AB751F0041F2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD9D48822AB751F0041F2FC /* LaunchScreen.storyboard */; };
 		FAD9D49522AB751F0041F2FC /* NorBlissTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D49422AB751F0041F2FC /* NorBlissTests.swift */; };
 		FAD9D4A022AB751F0041F2FC /* NorBlissUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D49F22AB751F0041F2FC /* NorBlissUITests.swift */; };
+		FAD9D4AE22AB756D0041F2FC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D4AD22AB756D0041F2FC /* ViewModel.swift */; };
+		FAD9D4B022AB770D0041F2FC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D4AF22AB770D0041F2FC /* Model.swift */; };
+		FAD9D4B222AB78290041F2FC /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D4B122AB78290041F2FC /* ServiceManager.swift */; };
+		FAD9D4B422AB785D0041F2FC /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D4B322AB785D0041F2FC /* ServiceProvider.swift */; };
+		FAD9D4B622AB78710041F2FC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D4B522AB78710041F2FC /* Task.swift */; };
+		FAD9D4B822AB78980041F2FC /* HttpTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D4B722AB78980041F2FC /* HttpTask.swift */; };
+		FAD9D4BA22AB78CF0041F2FC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D4B922AB78CF0041F2FC /* Response.swift */; };
+		FAD9D4BC22AB791D0041F2FC /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D4BB22AB791D0041F2FC /* ContentService.swift */; };
+		FAD9D4BE22AB79380041F2FC /* ContentServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D4BD22AB79380041F2FC /* ContentServiceProvider.swift */; };
+		FAD9D4C022AB7ABB0041F2FC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9D4BF22AB7ABB0041F2FC /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0118F88884DAD8124EC86476 /* Pods-NorBliss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorBliss.release.xcconfig"; path = "Pods/Target Support Files/Pods-NorBliss/Pods-NorBliss.release.xcconfig"; sourceTree = "<group>"; };
+		1586E1F51BF58BDA6AD2332E /* Pods-NorBlissTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorBlissTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NorBlissTests/Pods-NorBlissTests.release.xcconfig"; sourceTree = "<group>"; };
+		1962776F0A884B49ED8671CF /* Pods-NorBlissTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorBlissTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NorBlissTests/Pods-NorBlissTests.debug.xcconfig"; sourceTree = "<group>"; };
+		274DB544B66083E6B50992C3 /* Pods-NorBlissUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorBlissUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NorBlissUITests/Pods-NorBlissUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63A4C07DEB16511EC6C8F96D /* Pods-NorBlissUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorBlissUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NorBlissUITests/Pods-NorBlissUITests.release.xcconfig"; sourceTree = "<group>"; };
+		773BF66AB4298EF512DEB5C9 /* Pods_NorBlissUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NorBlissUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFBAD5F2F8DFCA83AD161C2 /* Pods-NorBliss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorBliss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NorBliss/Pods-NorBliss.debug.xcconfig"; sourceTree = "<group>"; };
+		A67B43F942E0C9EF021C67C1 /* Pods_NorBliss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NorBliss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FC299E5B363A8D9D538943 /* Pods_NorBlissTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NorBlissTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA70AD1622AB7D1800A8817C /* LazyLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoader.swift; sourceTree = "<group>"; };
+		FA70AD5A22AB8D9600A8817C /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		FA70AD5C22AB8DCB00A8817C /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		FA70AD6122AB93A500A8817C /* interview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = interview.json; sourceTree = "<group>"; };
+		FA70AD6322AB9B1000A8817C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FA70AD6522ABB1E600A8817C /* AMovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMovieViewModel.swift; sourceTree = "<group>"; };
+		FA70AD6722ABB5DE00A8817C /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		FA70AD6922ABC08B00A8817C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FA70AD7522ABC75800A8817C /* ContentServiceProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentServiceProviderTests.swift; sourceTree = "<group>"; };
 		FAD9D47922AB751E0041F2FC /* NorBliss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorBliss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD9D47C22AB751E0041F2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD9D47E22AB751E0041F2FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +89,16 @@
 		FAD9D49B22AB751F0041F2FC /* NorBlissUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorBlissUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD9D49F22AB751F0041F2FC /* NorBlissUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorBlissUITests.swift; sourceTree = "<group>"; };
 		FAD9D4A122AB751F0041F2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD9D4AD22AB756D0041F2FC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FAD9D4AF22AB770D0041F2FC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FAD9D4B122AB78290041F2FC /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		FAD9D4B322AB785D0041F2FC /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		FAD9D4B522AB78710041F2FC /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		FAD9D4B722AB78980041F2FC /* HttpTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTask.swift; sourceTree = "<group>"; };
+		FAD9D4B922AB78CF0041F2FC /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		FAD9D4BB22AB791D0041F2FC /* ContentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentService.swift; sourceTree = "<group>"; };
+		FAD9D4BD22AB79380041F2FC /* ContentServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentServiceProvider.swift; sourceTree = "<group>"; };
+		FAD9D4BF22AB7ABB0041F2FC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4E6CD0CBB288F87A965336 /* Pods_NorBliss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF9F02EC143613FE2F07FC0 /* Pods_NorBlissTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +122,120 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C543A203F41590A5453F6D /* Pods_NorBlissUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2019A1B2F6E44D8F0887D505 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AFBAD5F2F8DFCA83AD161C2 /* Pods-NorBliss.debug.xcconfig */,
+				0118F88884DAD8124EC86476 /* Pods-NorBliss.release.xcconfig */,
+				1962776F0A884B49ED8671CF /* Pods-NorBlissTests.debug.xcconfig */,
+				1586E1F51BF58BDA6AD2332E /* Pods-NorBlissTests.release.xcconfig */,
+				274DB544B66083E6B50992C3 /* Pods-NorBlissUITests.debug.xcconfig */,
+				63A4C07DEB16511EC6C8F96D /* Pods-NorBlissUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C74784188E2AD588F756D0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A67B43F942E0C9EF021C67C1 /* Pods_NorBliss.framework */,
+				B6FC299E5B363A8D9D538943 /* Pods_NorBlissTests.framework */,
+				773BF66AB4298EF512DEB5C9 /* Pods_NorBlissUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA70AD5222AB8B5600A8817C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D4AD22AB756D0041F2FC /* ViewModel.swift */,
+				FA70AD6522ABB1E600A8817C /* AMovieViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA70AD5322AB8B5F00A8817C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D4AF22AB770D0041F2FC /* Model.swift */,
+				FA70AD6322AB9B1000A8817C /* File.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA70AD5422AB8B6700A8817C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D47E22AB751E0041F2FC /* ViewController.swift */,
+				FA70AD6922ABC08B00A8817C /* DetailViewController.swift */,
+				FAD9D48022AB751E0041F2FC /* Main.storyboard */,
+				FA70AD5A22AB8D9600A8817C /* MovieTableViewCell.swift */,
+				FA70AD5C22AB8DCB00A8817C /* MovieTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA70AD5522AB8B6E00A8817C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D4BF22AB7ABB0041F2FC /* API.swift */,
+				FAD9D4B522AB78710041F2FC /* Task.swift */,
+				FAD9D4B722AB78980041F2FC /* HttpTask.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FA70AD5622AB8B7800A8817C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D4B122AB78290041F2FC /* ServiceManager.swift */,
+				FAD9D4B322AB785D0041F2FC /* ServiceProvider.swift */,
+				FA70AD5822AB8BD000A8817C /* Content */,
+				FA70AD5722AB8BC200A8817C /* Response */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FA70AD5722AB8BC200A8817C /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D4B922AB78CF0041F2FC /* Response.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		FA70AD5822AB8BD000A8817C /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9D4BB22AB791D0041F2FC /* ContentService.swift */,
+				FAD9D4BD22AB79380041F2FC /* ContentServiceProvider.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		FA70AD5922AB8BFD00A8817C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FA70AD1622AB7D1800A8817C /* LazyLoader.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		FA70AD6022AB939400A8817C /* MockJson */ = {
+			isa = PBXGroup;
+			children = (
+				FA70AD6122AB93A500A8817C /* interview.json */,
+			);
+			path = MockJson;
+			sourceTree = "<group>";
+		};
 		FAD9D47022AB751E0041F2FC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +243,8 @@
 				FAD9D49322AB751F0041F2FC /* NorBlissTests */,
 				FAD9D49E22AB751F0041F2FC /* NorBlissUITests */,
 				FAD9D47A22AB751E0041F2FC /* Products */,
+				2019A1B2F6E44D8F0887D505 /* Pods */,
+				7C74784188E2AD588F756D0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +262,13 @@
 			isa = PBXGroup;
 			children = (
 				FAD9D47C22AB751E0041F2FC /* AppDelegate.swift */,
-				FAD9D47E22AB751E0041F2FC /* ViewController.swift */,
-				FAD9D48022AB751E0041F2FC /* Main.storyboard */,
+				FA70AD6022AB939400A8817C /* MockJson */,
+				FA70AD5622AB8B7800A8817C /* Service */,
+				FA70AD5522AB8B6E00A8817C /* Network */,
+				FA70AD5422AB8B6700A8817C /* View */,
+				FA70AD5322AB8B5F00A8817C /* Model */,
+				FA70AD5222AB8B5600A8817C /* ViewModel */,
+				FA70AD5922AB8BFD00A8817C /* Support */,
 				FAD9D48622AB751F0041F2FC /* Assets.xcassets */,
 				FAD9D48822AB751F0041F2FC /* LaunchScreen.storyboard */,
 				FAD9D48B22AB751F0041F2FC /* Info.plist */,
@@ -114,6 +281,8 @@
 			isa = PBXGroup;
 			children = (
 				FAD9D49422AB751F0041F2FC /* NorBlissTests.swift */,
+				FA70AD6722ABB5DE00A8817C /* ViewModelTests.swift */,
+				FA70AD7522ABC75800A8817C /* ContentServiceProviderTests.swift */,
 				FAD9D49622AB751F0041F2FC /* Info.plist */,
 			);
 			path = NorBlissTests;
@@ -135,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD9D4A422AB751F0041F2FC /* Build configuration list for PBXNativeTarget "NorBliss" */;
 			buildPhases = (
+				F1C3620A2005D3422AD89491 /* [CP] Check Pods Manifest.lock */,
 				FAD9D47522AB751E0041F2FC /* Sources */,
 				FAD9D47622AB751E0041F2FC /* Frameworks */,
 				FAD9D47722AB751E0041F2FC /* Resources */,
+				96A06DF6A1F93EA7D46DBCE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +323,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD9D4A722AB751F0041F2FC /* Build configuration list for PBXNativeTarget "NorBlissTests" */;
 			buildPhases = (
+				4A3AE6A254A19A16D0213464 /* [CP] Check Pods Manifest.lock */,
 				FAD9D48C22AB751F0041F2FC /* Sources */,
 				FAD9D48D22AB751F0041F2FC /* Frameworks */,
 				FAD9D48E22AB751F0041F2FC /* Resources */,
@@ -170,6 +342,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD9D4AA22AB751F0041F2FC /* Build configuration list for PBXNativeTarget "NorBlissUITests" */;
 			buildPhases = (
+				A23EF791B36121F9BE0C7528 /* [CP] Check Pods Manifest.lock */,
 				FAD9D49722AB751F0041F2FC /* Sources */,
 				FAD9D49822AB751F0041F2FC /* Frameworks */,
 				FAD9D49922AB751F0041F2FC /* Resources */,
@@ -234,6 +407,8 @@
 			files = (
 				FAD9D48A22AB751F0041F2FC /* LaunchScreen.storyboard in Resources */,
 				FAD9D48722AB751F0041F2FC /* Assets.xcassets in Resources */,
+				FA70AD6222AB93A500A8817C /* interview.json in Resources */,
+				FA70AD5D22AB8DCB00A8817C /* MovieTableViewCell.xib in Resources */,
 				FAD9D48222AB751E0041F2FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +429,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A3AE6A254A19A16D0213464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NorBlissTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96A06DF6A1F93EA7D46DBCE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NorBliss/Pods-NorBliss-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NorBliss/Pods-NorBliss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23EF791B36121F9BE0C7528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NorBlissUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C3620A2005D3422AD89491 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NorBliss-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAD9D47522AB751E0041F2FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD9D4BC22AB791D0041F2FC /* ContentService.swift in Sources */,
+				FAD9D4B622AB78710041F2FC /* Task.swift in Sources */,
+				FA70AD6622ABB1E600A8817C /* AMovieViewModel.swift in Sources */,
+				FAD9D4BE22AB79380041F2FC /* ContentServiceProvider.swift in Sources */,
+				FAD9D4B022AB770D0041F2FC /* Model.swift in Sources */,
 				FAD9D47F22AB751E0041F2FC /* ViewController.swift in Sources */,
+				FA70AD6422AB9B1000A8817C /* File.swift in Sources */,
+				FA70AD5B22AB8D9600A8817C /* MovieTableViewCell.swift in Sources */,
+				FAD9D4B422AB785D0041F2FC /* ServiceProvider.swift in Sources */,
+				FA70AD6A22ABC08B00A8817C /* DetailViewController.swift in Sources */,
+				FAD9D4BA22AB78CF0041F2FC /* Response.swift in Sources */,
 				FAD9D47D22AB751E0041F2FC /* AppDelegate.swift in Sources */,
+				FAD9D4C022AB7ABB0041F2FC /* API.swift in Sources */,
+				FAD9D4AE22AB756D0041F2FC /* ViewModel.swift in Sources */,
+				FA70AD1722AB7D1800A8817C /* LazyLoader.swift in Sources */,
 				FAD9D48522AB751E0041F2FC /* NorBliss.xcdatamodeld in Sources */,
+				FAD9D4B822AB78980041F2FC /* HttpTask.swift in Sources */,
+				FAD9D4B222AB78290041F2FC /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +534,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA70AD6822ABB5DE00A8817C /* ViewModelTests.swift in Sources */,
 				FAD9D49522AB751F0041F2FC /* NorBlissTests.swift in Sources */,
+				FA70AD7622ABC75800A8817C /* ContentServiceProviderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +701,7 @@
 		};
 		FAD9D4A522AB751F0041F2FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFBAD5F2F8DFCA83AD161C2 /* Pods-NorBliss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +720,7 @@
 		};
 		FAD9D4A622AB751F0041F2FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0118F88884DAD8124EC86476 /* Pods-NorBliss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +739,7 @@
 		};
 		FAD9D4A822AB751F0041F2FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1962776F0A884B49ED8671CF /* Pods-NorBlissTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +761,7 @@
 		};
 		FAD9D4A922AB751F0041F2FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1586E1F51BF58BDA6AD2332E /* Pods-NorBlissTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +783,7 @@
 		};
 		FAD9D4AB22AB751F0041F2FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274DB544B66083E6B50992C3 /* Pods-NorBlissUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +804,7 @@
 		};
 		FAD9D4AC22AB751F0041F2FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A4C07DEB16511EC6C8F96D /* Pods-NorBlissUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
